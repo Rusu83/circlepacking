@@ -2,7 +2,7 @@ var X=[] , Y=[] ,R=[];
 var x,y,r,sem,i;
 
 function setup() {
-  createCanvas(900,700);
+  createCanvas(window.innerWidth,700);
   noStroke();
   x=random(width);
   y=random(height);
